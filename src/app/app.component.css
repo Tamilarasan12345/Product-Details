@@ -1,0 +1,58 @@
+.header {
+  background-color: rgb(245, 231, 231);
+  margin-top: -8px;
+  margin-left: -16px;
+  margin-right: -16px;
+  padding: 5px;
+  display: flex;
+}
+.bar{
+  background-color: rgb(245, 231, 231);
+}
+.sample {
+  flex: 1 1 auto;
+}
+.text {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.box {
+  margin-left: 20px;
+}
+.menu-icon {
+
+  background-color:rgb(245, 231, 231);
+  color: black;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+.favorite-icon{
+  background-color:rgb(245, 231, 231);
+  color: black;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+
+}
+.share-icon{
+  background-color:rgb(245, 231, 231);
+  color: black;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+.product-link{
+  background-color:rgb(248, 248, 248);
+  border:3px;
+  font-size: large;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 4px;
+
+}
+.appbar{
+  color: #000;
+
+}

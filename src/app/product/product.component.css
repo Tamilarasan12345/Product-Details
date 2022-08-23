@@ -1,0 +1,23 @@
+.content {
+  background-color: #d9d9d9;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.card-img {
+  object-fit: cover;
+  width: 60%;
+  margin-left: 60px;
+  height: 200px;
+}
+.card {
+  object-fit: cover;
+  width: 10%;
+  height: 200px;
+}
+.example-card {
+  background-color: rgb(245, 231, 231);
+}
+.about {
+  margin-left: 150px;
+}
