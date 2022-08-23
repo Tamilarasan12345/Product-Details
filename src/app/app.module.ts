@@ -17,12 +17,16 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
+import { ProductFormComponent } from './about/product-form/product-form.component';
+import { ProductDetailsComponent } from './about/product-details/product-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductComponent,
     AboutComponent,
+    ProductFormComponent,
+    ProductDetailsComponent,
 
   ],
   imports: [
