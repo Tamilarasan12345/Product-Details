@@ -53,7 +53,7 @@
             <mat-form-field class="example-full-width" appearance="fill">
             <mat-label>Price</mat-label>
             <input type="text" matInput placeholder="price" formControlName="price">
-            <mat-error *ngIf="productForm.get('price').hasError('required')">Title is <strong>required</strong>
+            <mat-error *ngIf="productForm.get('price').hasError('required')">Price is <strong>required</strong>
             </mat-error>
             </mat-form-field>
           </div>
@@ -62,7 +62,7 @@
             <mat-form-field class="example-full-width" appearance="fill">
             <mat-label>Description</mat-label>
             <textarea type="text" matInput placeholder="description" formControlName="description"></textarea>
-            <mat-error *ngIf="productForm.get('description').hasError('required')">Title is <strong>required</strong>
+            <mat-error *ngIf="productForm.get('description').hasError('required')">Description is <strong>required</strong>
             </mat-error>
             </mat-form-field>
           </div>
@@ -71,14 +71,14 @@
             <mat-form-field class="example-full-width" appearance="fill">
             <mat-label>Brand</mat-label>
             <input type="text" matInput placeholder="brand" formControlName="brand">
-            <mat-error *ngIf="productForm.get('brand').hasError('required')">Title is <strong>required</strong>
+            <mat-error *ngIf="productForm.get('brand').hasError('required')">Brand is <strong>required</strong>
             </mat-error>
             </mat-form-field>
           </div>
 
        </div>
         <div class="but">
-          <button  mat-raised-button type="submit" [disabled]="productForm.invalid">Submit</button>
+          <button color="primary"  mat-raised-button type="submit" [disabled]="productForm.invalid">Submit</button>
         </div>
       </form>
     </div>
